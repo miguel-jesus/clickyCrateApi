@@ -17,6 +17,7 @@ using Microsoft.Owin.Security.OAuth;
 using ProyectoApiWebClickCrates.Models;
 using ProyectoApiWebClickCrates.Providers;
 using ProyectoApiWebClickCrates.Results;
+using Dapper;
 
 namespace ProyectoApiWebClickCrates.Controllers
 {
