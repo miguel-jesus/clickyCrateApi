@@ -361,7 +361,7 @@ namespace ProyectoApiWebClickCrates.Controllers
             {
                 con.Execute(sql);
             }
-            catch (Exception e)
+            catch (Exception e) 
             {
                 return BadRequest("Error Eliminar Jugador en la tabla Players, " + e.Message);
             }
